@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Punktezettel – Skyjo &amp; Flip 7</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-view="home">
+  <div class="bg bg-plain"></div>
+  <div class="bg bg-skyjo"></div>
+  <div class="bg bg-flip7"></div>
+  <div class="bg bg-dim"></div>
+
+  <header class="topbar">
+    <button class="brand" data-act="go" data-to="home">Punktezettel</button>
+    <nav>
+      <button class="nav-btn" data-act="go" data-to="home" data-nav="home">Spiele</button>
+      <button class="nav-btn" data-act="go" data-to="stats" data-nav="stats">Statistiken</button>
+      <button class="nav-btn" data-act="go" data-to="settings" data-nav="settings">Einstellungen</button>
+    </nav>
+  </header>
+
+  <main id="view"></main>
+  <canvas id="confetti"></canvas>
+  <script src="app.js"></script>
+</body>
+</html>
